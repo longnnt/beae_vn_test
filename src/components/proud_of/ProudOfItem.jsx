@@ -4,10 +4,7 @@ import { Text } from "../../common/components/Text";
 
 export const ProudOfItem = ({ number, title, desc }) => {
   return (
-    <Box
-      padding={"40px 30px"}
-      boxShadow={"0px 4px 30px 0px rgba(10, 30, 35, 0.10)"}
-    >
+    <Box className={"proud-of__item"}>
       <Text
         content={number}
         lineHeight={"55px"}

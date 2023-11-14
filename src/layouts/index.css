@@ -53,6 +53,11 @@
   .proud-of {
     margin-top: 100px;
   }
+  .proud-of__item {
+    padding: 40px 30px;
+    box-shadow: 0px 4px 30px 0px rgba(10, 30, 35, 0.1);
+    border-radius: 10px;
+  }
   .proud-of__title {
     font-size: 5.4rem;
     line-height: 7rem;
@@ -219,6 +224,9 @@
     margin-top: 50px;
     padding: 0 20px;
     flex-wrap: wrap;
+  }
+  .proud-of__item {
+    padding: 30px;
   }
   .about {
     height: 280px;
