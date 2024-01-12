@@ -31,6 +31,7 @@ const PROUD_LIST = [
 ];
 
 export const ProudOf = ({ title }) => {
+  console.log(window.innerWidth);
   return (
     <Box className="proud-of">
       <Text

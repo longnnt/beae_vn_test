@@ -82,7 +82,11 @@ learning for children."
           bg={"rgba(231, 96, 136, 1)"}
         />
       </Box>
-      <Box bg={"rgba(231, 96, 136, 1)"} position={"relative"}>
+      <Box
+        bg={"rgba(231, 96, 136, 1)"}
+        position={"relative"}
+        className={"bird"}
+      >
         <img src="/bird.png" alt="bird" className="about-banner__bird" />
         <Play />
       </Box>

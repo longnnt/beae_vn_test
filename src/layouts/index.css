@@ -153,6 +153,21 @@
   }
 }
 
+@media only screen and (max-width: 1488px) {
+  .nav-desktop {
+    padding: 0 80px;
+  }
+
+  .about__title {
+    font-size: 2.6rem;
+    line-height: 0%;
+  }
+
+  .bird {
+    overflow: hidden;
+  }
+}
+
 @media only screen and (max-width: 428px) {
   .top-header {
     display: none;
